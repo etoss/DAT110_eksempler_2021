@@ -1,0 +1,3 @@
+Tester, første linje
+Norske tegn æøå ÆØÅ
+Tredje linje
