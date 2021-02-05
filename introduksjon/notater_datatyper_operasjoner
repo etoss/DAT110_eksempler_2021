@@ -1,0 +1,41 @@
+Datatype
+ - int: Heltall
+ - float: Flyttall / desimaltall
+ - str: (String): Tekststreng
+
+Strenger:
+ - Hvert tegn er kodet med et tall
+ - ASCII: Gammel ameriansk standard, inneholder ikke norske tegn æ, ø og å
+ - Vanlig i dag: UTF-8
+ - Eldre Windows systemer bruker Win-1252 i stedet
+
+Operasjoner:
+ +, -, * på tall gir heltall hvis begge tallene er heltall, ellers flyttall
+ /: Flyttallsdivisjon, gir alltid float ut
+ //: Heltallsdivisjon. Runder alltid ned!
+ %: Modulo. Resten etter en heltallsdivisjon
+ **: Opphøying: 2**3 - 2 opphøyd i 3
+
+8/3: 2*3 + 2
+14/5: 2*5 + 4
+
+Funksjoner som konverterer mellom typer
+int(): Konverterer til et heltall, kapper desimalen til et flyttall
+round(): Runder av flyttall til heltall
+float(): Konverterer til et flyttall
+str(): Konverterer til en streng
+
+Variabler
+
+"et_tall = 5" leses "Variabelen et_tall settes lik 5"
+
+Lovlige tegn i variabler
+- Bokstaver
+- Underscore _
+- Tall, bortsett fra første tegn
+- Skiller mellom store og små bokstaver
+
+Navnekonvensjon: Kun små bokstaver, skill ord med underscore
+Navnet bør si noe om hva variabelen skal inneholde!
+Selvdokumenterende kode
+
