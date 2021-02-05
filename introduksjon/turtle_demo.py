@@ -6,13 +6,17 @@ turtle.setup(600, 600, 120, 20)
 
 # Tegner opp en firkant med sider på 100 piksler
 turtle.forward(100)
-turtle.left(90)
+turtle.left(60)
 turtle.forward(100)
-turtle.left(90)
+turtle.left(60)
 turtle.forward(100)
-turtle.left(90)
+turtle.left(60)
 turtle.forward(100)
-turtle.left(90)
+turtle.left(60)
+turtle.forward(100)
+turtle.left(60)
+turtle.forward(100)
+turtle.left(60)
 
 # Avslutter tegningen slik at turtle-vinduet forblir åpent når scriptet avslutter
 turtle.done()
